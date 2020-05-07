@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  list-style-type: none;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* контейнер 1 */
+
+/* хедер */
+header {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container1 {
+  background-image: url(./images/header-bg.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position-x: 50%;
+  height: 100vh;
+  background-size: cover;
+}
+.container1 .menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  position: relative;
+  top: -23px;
+  border-bottom: 1px solid #999999;
+}
+.container1 .menu ul {
+  display: flex;
+}
+.container1 .menu ul li {
+  padding: 44px;
+}
+.shturval {
+  position: relative;
+  top: 32px;
+}
+.container1 .menu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+.container1 .left {
+  margin-right: 24px;
+}
+.container1 .right {
+  margin-left: 24px;
+}
+@media (max-width: 1200px) {
+  .container1 {
+    width: 125%;
+  }
+}
+@media (max-width: 768px) {
+  .container1 .menu ul li {
+    padding-right: 26px;
+    padding-left: 23px;
+    margin-bottom: -12px;
+  }
+}
+@media (max-width: 425px) {
+  .container1 .menu ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 101%;
+  }
+  .shturval img {
+    height: 88px;
+  }
+  .container1 {
+    width: 139%;
+  }
+  .container1 .menu ul li {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: -12px;
+    padding: 23px;
+  }
+}
+@media (max-width: 320px) {
+  .shturval img {
+    position: relative;
+    top: -19px;
+  }
+  .container1 .menu ul li {
+    padding: 13px;
+  }
+}
+
+/* контент 1 контейнера */
+
+.content_1 {
+  margin: 0 auto;
+  width: 63%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.content_1 h5 {
+  padding-top: 161px;
+  text-align: center;
+  font-size: 9px;
+}
+.content_1 h1 {
+  text-align: center;
+  font-family: "Banny BoldRound";
+  font-weight: bold;
+  font-style: normal;
+  padding-top: 34px;
+  font-size: 142px;
+}
+
+/* контейнер 2 */
+
+.container2{
+    width: 87%;
+}
+.container2 .container_add {
+  padding: 84px;
+}
+.container2 .container_add img {
+    width: 150%;
+}
+.container2 .container_add .text {
+  text-align: center;
+}
+.container2 .container_add .text h1 {
+  font-family: Banny;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 94px;
+  color: #000000;
+}
+.container2 .container_add .text .line {
+  width: 59.19px;
+  height: 5px;
+  display: inline-block;
+
+  background: #e8c300;
+  border-radius: 50px;
+}
+.container2 .container_add .text h4 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #000000;
+}
+.container2 .container_add .text p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+}
+@media (max-width: 1200px){
+    .container2 .container_add {
+        padding: 0;
+    }
+    .container2 .container_add .text {
+        text-align: center;
+        position: relative;
+        left: 20%;
+    }
+    .container2 .container_add img {
+        position: relative;
+        left: 22%;
+        width: 118%;
+    }
+}
+@media(max-width: 425px){
+    .qwe {
+       position: relative;
+       left: 28px;
+    }
+}
+
+/* контейнер 3 */
+.container3 .cont{
+    background-image: url(./images/specialty-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width: 100%;
+}
+.container3{
+    width: 100%;
+}
+.container2 .container_add {
+  padding: 84px;
+}
+.container2 .container_add img {
+    width: 150%;
+}
+.container2 .container_add .text {
+  text-align: center;
+}
+.container2 .container_add .text h1 {
+  font-family: Banny;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 94px;
+  color: #000000;
+}
+.container2 .container_add .text .line {
+  width: 59.19px;
+  height: 5px;
+  display: inline-block;
+
+  background: #e8c300;
+  border-radius: 50px;
+}
+
